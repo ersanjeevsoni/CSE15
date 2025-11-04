@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* #box p{
+            color: blueviolet;
+        } */
+
+        /* #box > p {
+            color: cadetblue;
+        } */
+       
+        /* #box + p {
+            color: blueviolet;
+        } */
+        /* #box ~ p {
+            color: brown;
+        } */
+         a:link{
+            text-decoration: none; font-size: 20px;
+         }
+         a:hover{
+            color: brown;
+         }
+         a:active{
+            color: aqua;
+         }
+         a:visited{
+            color: black;
+         }
+         ul{
+            list-style: none;
+            display: flex;
+         }
+         ul li{
+            margin: 20px;
+            border-right: 2px solid #e41111;
+            padding: 0px 20px;
+        
+         }
+         ul li:nth-child(5){
+            border-right: 0px;
+         }
+
+         ul li::first-letter{
+            color: #e41111;
+            font-size: 20px;
+         }
+         p::first-line{
+            background-color: aqua;
+         }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>services</li>
+        <li>gallery</li>
+        <li>contact</li>
+    </ul>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione molestiae maxime nulla, quibusdam, nostrum perferendis id earum ipsum dolores eos tempora nesciunt exercitationem impedit at aperiam saepe vero suscipit.
+    </p>
+    <!-- <div id="box">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quasi accusantium, saepe dignissimos veniam aliquam! Fugiat saepe deserunt tenetur numquam harum aliquam nam ab sapiente. Libero rem aperiam harum officia!
+        </p>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim facere a quia, ab aut ad alias impedit dolorem officia? Quibusdam ad laboriosam rem ullam nihil voluptatibus laborum consequuntur excepturi hic!</p>
+        </div>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore eum sed omnis doloremque, quo accusantium accusamus sunt delectus, exercitationem similique quia, et fuga consequuntur debitis! Et consequuntur saepe reiciendis.
+    </p>
+    <h3>ABES Engineering COllege</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptatibus, vero quasi, veniam nostrum quo temporibus consequuntur perspiciatis obcaecati, deleniti corporis excepturi reprehenderit ipsa ex voluptates? Facilis aspernatur voluptates saepe!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis magni ab quibusdam vitae autem velit rem unde tenetur explicabo. Rerum necessitatibus vero iusto quis laborum ducimus dolores repellat tenetur!
+    </p> -->
+
+    <!--CSS Pseudo-classes: a style for a special state of an element.-->
+    <a href="">Visit the link</a>
+</body>
+</html>
