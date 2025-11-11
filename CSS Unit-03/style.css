@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua;
+    background-image:url('images.jpeg');
+    background-repeat: repeat-y;
+    background-position: top right 40px; */
+    /* background-size: cover; */
+    /* background: url('img.png') no-repeat top left;
+    background-size: cover; */
+    
+}
+html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 0px 10px #000;
+    /* display: inline; */
+    clear: left;
+}
+#para{
+    color: chartreuse;
+}
+img{
+ float: left;
+ margin-right: 20px;
+ border: 10px solid #999;
+ border-radius: 50%;
+}
